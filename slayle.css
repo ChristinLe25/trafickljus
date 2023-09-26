@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contener {
+    background-color: rgb(147, 147, 147);
+    width: auto;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;  
+}
+.contener__inside{
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box__one, .box__two, .box__thre  {
+    background-color: rgb(157, 121, 188);
+    height: 220px;
+    width: 220px;
+    border: 20px;
+    border-style: solid; 
+}
+
+.box__one {
+    background-color: #f11010;
+    border-color: #600505;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.in__box__one {
+    background-color: #c1c1c170;
+    height: 50%;
+    width: 100%;
+}
+
+.box__two {
+    background-color: #fee909;
+    border-color: #d7c909;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.in__box__two {
+    background-color: #ffffff80;
+    height: 50%;
+    width: 50%;
+}
+
+.box__thre {
+    background-color: #39f110;
+    border-color: #036003;
+    display: flex;
+    align-items: flex-end;
+}
+
+.in__box__ther {
+    background-color: #f1f1f174;
+    height: 50%;
+    width: 50%;
+}
